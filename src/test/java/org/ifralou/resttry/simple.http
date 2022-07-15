@@ -1,0 +1,11 @@
+POST localhost:8080
+Content-Type: application/json
+
+{
+  "sku": "mouse",
+  "name": "Mouse",
+  "price": 50
+}
+
+###
+GET localhost:8080
