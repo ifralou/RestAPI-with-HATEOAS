@@ -1,0 +1,99 @@
+GET http://localhost:8080/1/emailAddresses
+
+<> 2022-07-15T154208.200.json
+
+###
+
+PUT http://localhost:8080/1/emailAddresses/1
+Content-Type: application/json
+
+{
+  "address": "updated@johndoe.com"
+}
+
+<> 2022-07-15T154203.200.json
+
+###
+
+PUT http://localhost:8080/1/emailAddresses/1
+Content-Type: application/json
+
+{
+  "address": "updated@johndoe.com"
+}
+
+<> 2022-07-15T154200.200.json
+
+###
+
+PUT http://localhost:8080/1/emailAddresses/1
+Content-Type: application/json
+
+{
+  "email": "updated@johndoe.com"
+}
+
+<> 2022-07-15T154141.200.json
+
+###
+
+PUT http://localhost/1/emailAddresses/1
+Content-Type: application/json
+
+{
+  "email": "updated@johndoe.com"
+}
+
+###
+
+PUT http://localhost/1/emailAddresses/1
+Content-Type: application/json
+
+{
+  "email": "updated@johndoe.com"
+}
+
+###
+
+GET http://localhost:8080/1/emailAddresses
+
+<> 2022-07-15T153952.200.json
+
+###
+
+DELETE http://localhost:8080/1/emailAddresses/2
+
+<> 2022-07-15T153529.500.json
+
+###
+
+DELETE http://localhost:8080/1/emailAddresses/2
+
+<> 2022-07-15T134648.200.json
+
+###
+
+GET http://localhost:8080/1/emailAddresses
+
+<> 2022-07-15T134623.200.json
+
+###
+
+DELETE http://localhost:8080/1/emailAddresses/1
+
+<> 2022-07-15T134152.500.json
+
+###
+
+DELETE http://localhost:8080/1/emailAddresses/1
+
+<> 2022-07-15T134149.500.json
+
+###
+
+DELETE http://localhost:8080/1/emailAddresses/1
+
+<> 2022-07-15T132655.200.json
+
+###
+
