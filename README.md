@@ -1,3 +1,3 @@
-# RestApiTry
+# RestAPI with HATEOAS
 
-to be continued
+Experimenting with a hypermedia approach to APIs using Springboot and Java.
